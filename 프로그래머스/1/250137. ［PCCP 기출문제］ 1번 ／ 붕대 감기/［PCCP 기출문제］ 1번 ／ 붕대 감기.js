@@ -1,3 +1,8 @@
+/* 
+  bandage = [시전 시간, 초당 회복량, 추가 회복량]
+  health  = 최대 체력
+  attack  = [공격 시간, 피해량]
+*/
 
 function checkHealth(currentHealth, maxHealth) {
   if (currentHealth >= maxHealth) currentHealth = maxHealth;
@@ -39,6 +44,3 @@ function solution(bandage, health, attacks) {
 
   return currentHealth;
 }
-
-
-*/
